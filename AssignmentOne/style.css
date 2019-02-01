@@ -1,0 +1,63 @@
+body {
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #1d1d1d;
+
+    line-height: 14pt;
+    padding: 5pt;
+}
+
+h1 {
+    font: 3vw Verdana;
+    /* font-weight: bold; */
+    line-height: 20pt;
+    text-align: center;
+    color: orange;
+}
+
+h2 {
+    font: 2vw Verdana;
+
+    text-align: left;
+    color: orange;
+
+    margin-top: 2.5%;
+    margin-bottom: 0.25%;
+}
+
+li {
+    list-style-type:square;
+    color: orange;
+    font: 1.5vw Verdana;
+}
+#linkBoxLeft, #linkBoxRight {
+    font: 4vw Verdana;
+    text-align: center;
+
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    float: left;
+
+    opacity: 0.6;
+
+    width: 20%;
+    
+    padding-left: .5%;
+    padding-right: .5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    
+    background-color: #525252;
+    color: orange;
+}
+
+#linkBoxRight {
+    float: right;
+}
+
+#linkBoxRight:hover, #linkBoxLeft:hover {
+    opacity: 1.0;
+}
