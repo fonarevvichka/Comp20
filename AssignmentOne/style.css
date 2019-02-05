@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    font: 2vw Verdana;
+    font: 1.5vw Verdana;
 
     text-align: left;
     color: orange;
@@ -29,7 +29,7 @@ h2 {
 li {
     list-style-type:square;
     color: orange;
-    font: 1.5vw Verdana;
+    font: 1vw Verdana;
 }
 #linkBoxLeft, #linkBoxRight {
     font: 4vw Verdana;
@@ -61,3 +61,19 @@ li {
 #linkBoxRight:hover, #linkBoxLeft:hover {
     opacity: 1.0;
 }
+
+#skillsSection, #educationSection, #activitiesSection, #experienceSection {
+    /* display: inline-block; */
+    align-content: center;
+    /* box-align: center; */
+    margin-left: 5%;
+}
+/* #skillsSection{
+    float: left;
+}
+#educationSection {
+    float: left;
+} 
+#activitiesSection {
+    float: left;
+} */
