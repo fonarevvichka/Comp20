@@ -20,7 +20,7 @@ h2 {
     font: 12pt Verdana;
 
     text-align: left;
-    text-emphasis: bold;
+    font-weight: bold;
     color: orange;
 
     margin-top: 2.5%;
@@ -62,6 +62,7 @@ li {
 #linkBoxRight:hover, #linkBoxLeft:hover {
     opacity: 1.0;
 }
+
 h3 {
     font: 11pt Verdana;
     color: orange;
